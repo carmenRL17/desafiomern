@@ -3,7 +3,7 @@ import { getPaises } from "../utils/paisesAPI.js";
 export const paginaDetalle = ` 
 
 <div id="contenidoDetalle" class="container"></div>
-<p><a href="#_home" class ="atras">Atras</a></p>  
+<p><a href="./#_home" class ="atras">Atras</a></p>  
 `;
 export const inicializarPagina = async () => {
   const [, indice] = location.hash.split("/");

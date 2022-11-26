@@ -38,7 +38,7 @@ export const inicializarPaginaHome = ()=>{
                     <h4>Poblacion:${data[i].population}</h4>                    
                     <h4>Region:${data[i].region}</h4>                    
                     <h4>Capital:${data[i].capital}</h4>                    
-                    <a href="#_detalle/${i}"}>Leer mas</a>
+                    <a href="./#_detalle/${i}"}>Leer mas</a>
                 </div>
                 `
             }
